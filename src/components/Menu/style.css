@@ -1,0 +1,24 @@
+.list {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.list-itens {
+    margin-right: 20px;
+}
+
+.list-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    align-self: center;
+    color: #fff;
+}
+
+.list-item:hover {
+    color: #80ffdb;
+    transition: 0.8s;
+}
