@@ -1,0 +1,19 @@
+.central-content {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.central-content .area-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.central-content .area-button .btn {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: black;
+}

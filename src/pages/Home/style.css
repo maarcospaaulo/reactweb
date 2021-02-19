@@ -1,0 +1,10 @@
+.home-page {
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+}
+
+.home-page .apresentation {
+    width: 70%;
+    margin: 150px 0;
+}

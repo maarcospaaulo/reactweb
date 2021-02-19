@@ -4,9 +4,9 @@ import './style.css'
 
 const Container = ({ children }) => {
     return (
-        <main className="app-container">
+        <div className="app-container">
             {children}
-        </main>
+        </div>
     );
 }
 
