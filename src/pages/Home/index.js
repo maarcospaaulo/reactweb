@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Container from '../../components/Container'
 
 import './style.css'
@@ -22,6 +23,7 @@ function Home() {
                     <li>Typescript</li>
                     <li>SEO</li>
                 </ul>
+                <Link to="/contact">Pagina de contato</Link>
             </Container>
         </div>
     );
